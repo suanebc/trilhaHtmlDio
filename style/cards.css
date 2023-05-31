@@ -10,21 +10,25 @@
   display: flex;
   background-color: #FFA500	;
   align-items: center;
+  justify-content: space-around;
   height: 150px;
-  width: 200px;
+  width: 160px;
   color: #FFFAF0;
   border-radius: 10%;
-  margin: 2% 1%;
+  margin: 1% 1%;
 
 
 }
 
 .card h4 {
   width: 50%;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
   font-weight: 300;
 
+}
+.card-img {
+  width: 50px;
 }
 article{
   border-bottom:solid 1px #A9A9A9;

@@ -55,7 +55,22 @@ body {
   padding: 20px;
   border: solid 1;
 }
+.video-crianca {
+  
+  width: 45%;
+  margin: 2%;
+  
+}
+ .lista-medicos tbody td {
+  border: 1px solid rgb(153, 99, 18);
 
+}
+.lista-medicos {
+  width: 100%;
+  background-color:rgba(211, 133, 23, 0.5);
+  text-align: center;
+  border: 1px solid rgb(153, 99, 18);
+}
 .footer {
 
   min-height: 100px;

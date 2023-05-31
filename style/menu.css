@@ -1,0 +1,42 @@
+.menu {
+  width: 20%;
+  padding: 50px  0;
+  display: flex;
+  
+  background-color: #FFA500;
+  
+}
+a{
+  color: #FFF5EE;
+}
+nav li a:link{
+  text-decoration:none;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  border-bottom: solid 1px;
+  padding: 10px 0;
+
+
+
+}
+.menu-link:active {
+  background-color:#A9A9A9;
+}
+
+.menu-link:hover {
+  text-decoration:none;
+  background-color:rgba(255, 228, 196, 0.25);  
+}
+
+nav{
+  margin: 0 5px;
+  width: 100%;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+

@@ -10,34 +10,33 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Federo", "Helvetica Neue";
-  
 }
 
 .wrapper {
   width: 100%;
   display: flex;
   margin: 0 auto;
-
 }
 
 .main {
   display: flex;
   flex-flow: column;
   width: 100%;
-  
 }
 
-.header, .header-contato, .header-sobre {
+.header, .header-contato, .header-sobre, .header-horario-servico {
   color: aliceblue;
-   
   min-height: 220px;
   width: 100%;
   font-weight: 300;
-  
 }
 
 .header h1{
   padding: 50px;
+}
+.header-horario-servico h1 {
+  color: #363636;
+  padding: 10px;
 }
 
 .header{
@@ -49,30 +48,33 @@ body {
 .header-sobre{
   background: url("/media/sobre.jpg") center / cover no-repeat;
 }
-.content {
+.header-horario-servico{
+  background: url("/media/doctor-work.jpg") center / cover no-repeat;
+}
+.content, .content-sobre {
   background-color: #F5F5F5;
   min-height: 350px;
   padding: 20px;
   border: solid 1;
 }
+.content-sobre{
+  display: flex;
+  align-content: space-between;
+}
 .video-crianca {
-  
   width: 45%;
   margin: 2%;
-  
 }
- .lista-medicos tbody td {
+ .lista-medicos tbody td, .lista-servicos tbody td {
   border: 1px solid rgb(153, 99, 18);
-
 }
-.lista-medicos {
+.lista-medicos, .lista-servicos {
   width: 100%;
   background-color:rgba(211, 133, 23, 0.5);
   text-align: center;
   border: 1px solid rgb(153, 99, 18);
 }
 .footer {
-
   min-height: 100px;
 }
 
